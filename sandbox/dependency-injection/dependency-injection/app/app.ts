@@ -6,7 +6,6 @@ purpose of the file is to pass control to the app’s first page.
 
 import { svelteNativeNoFrame } from 'svelte-native';
 import App from './App.svelte';
-import 'reflect-metadata';
 import { BTestService } from './services/BTestService';
 import { container } from 'tsyringe';
 
